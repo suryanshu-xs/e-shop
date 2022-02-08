@@ -1,0 +1,173 @@
+.header {
+
+  padding: 0.2em 1em;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid #6666; */
+  background-color: rgb(246, 246, 246);
+}
+.header__logo {
+  font-family: "Dancing Script", cursive;
+  font-family: "Italianno", cursive;
+  font-size: clamp(2.5rem,4vw,3.1rem);
+  font-weight: 500;
+
+  width: fit-content;
+  padding: 0em 0.2em;
+  
+}
+.backdrop__header__logo{
+    color:rgb(31, 31, 31);
+    margin: auto;
+    margin-top: 2rem;
+}
+.header__logo span{
+    font-weight: 600;
+    color: rgb(58, 57, 57);
+
+}
+.header__logo span:active{
+    color: rgb(58, 57, 57);
+}
+.header__searchBox{
+
+    flex: 1;
+    margin-left: 1.5em;
+    
+}
+.optionsContainer__welcome{
+    margin: 0em 1.5em;
+    cursor: default;
+    
+}
+.optionsContainer__welcome p{
+    padding: 0.2em 0em;
+   font-weight: 600;
+   
+}
+.header__searchBox input{
+    font-size: 0.95rem;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border: 1px solid #6666;
+    padding: 0.5em 0.5em;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.2s;
+    max-width: 1000px;
+}
+.header__searchBox input:focus{
+    border: 3px solid rgba(59, 57, 57, 0.4);
+}
+.header__optionsContainer{
+    display: flex;
+    align-items: center;
+}
+.header__hamburger{
+
+    margin-left: 0.5em;
+}
+
+
+.optionsContainer__button{
+
+    color: rgb(63, 63, 63) !important;
+    z-index: 10 !important;
+
+}
+.optionsContainer__options{
+    z-index: -1 !important;
+}
+.optionsContainer__button:hover{
+    color: var(--root-color) !important;
+}
+.optionsContainer__options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.optionsContainer__options span{
+    padding-right: 0.3em;
+}
+.backdrop{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.backdrop__closeButton{
+    margin-top: 1rem !important;
+    border: 2px solid white !important;
+    font-weight: 600 !important;
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+    border-radius: 3rem !important;
+}
+
+.backDropInputBox__input{
+    margin: 0.5em 0em !important;
+    font-family: 'Raleway', sans-serif !important;
+    border: none !important;
+    font-size: 0.8rem !important;
+}
+
+.backDropInputBox__form{
+    color: rgb(56, 56, 56);
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.backDropInputBox__heading{
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0.5em auto;
+    
+}
+.backDropInputBox__text{
+    max-width: 80%;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(63, 63, 63);
+    font-size: 0.9rem;
+    margin: 1rem 0em;
+
+}
+.backDropInputBox__submitButton{
+    color: var(--root-color) !important;
+    font-family:'Raleway', sans-serif !important;
+    font-weight: 600 !important;
+    margin: 0.5em auto !important;
+
+}
+.backDropInputBox__propmts{
+    color: rgb(71, 71, 71);
+    width: fit-content;
+    text-align: center;
+    margin: 0.5em auto;
+    font-size: 0.8rem;
+    cursor: pointer;
+    
+}
+.backDropInputBox__propmts:hover{
+    color: black;
+}
+
+
+
+
+@media (max-width:900px) {
+    
+    .header__optionsContainer{
+        display: none;
+    }
+}
+
+
+
+@media (min-width:900px) {
+    /* .header__hamburger{
+        display: none;
+    } */
+}

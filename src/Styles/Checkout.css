@@ -1,0 +1,152 @@
+
+.checkout__heading{
+    text-align: center;
+    padding: 1em 0em;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+}
+
+
+.productsToBeOrderdContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.productsToBeOrderd{
+    min-width: fit-content;
+}
+.productsToBeOrderdSummary{
+    min-width: fit-content;
+    padding: 2rem 1rem;
+    margin: 0em 2rem;
+
+}
+.productsToBeOrderdSummary__name{
+    font-size: 1.7rem;
+    max-width: 350px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+
+}
+.productsToBeOrderdSummary__brand{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;;
+    margin: 1.5rem 0em;
+    color: var(--root-color);
+}
+.productsToBeOrderdSummary__price{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color: rgb(61, 61, 61);
+
+}
+.productsToBeOrderdSummary__price span{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    
+}
+.productsToBeOrderdSummary__deliverycharge{
+    color: rgb(38, 165, 65);
+    font-size: 0.9rem;
+    margin: 1rem 0em;
+}
+.productsToBeOrderdSummary__deliverycharge del{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+}
+.productsToBeOrderdSummary__deliverycharge span{
+    font-weight: 600;
+    margin-left: 0.4rem;
+}
+.productsToBeOrderdSummary__total{
+    margin: 1em 0em;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    font-size: 1.7rem;
+    
+}
+.productsToBeOrderdSummary__total strong{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.cofirmDeliveryDetails{
+    padding: 1rem 0.5rem;
+}
+.confirmDetails{
+    color: rgb(46, 46, 46);
+    text-align: center;
+    padding: 0.5em 0em;
+    font-weight: 600;
+}
+.confirmInputDiv{
+    margin: 2rem auto;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.confirmInputDiv span{
+    font-weight: 500;
+    color: alicergb(46, 46, 46);
+    font-size: clamp(1rem ,4vw,1.15rem)
+}
+.confirmOrderWarning{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    max-width: 400px;
+    line-height: 1.4;
+    margin: auto;
+}
+.backToHome{
+    font-family: 'Raleway' !important;
+    background-color: var(--root-color) !important;
+    margin: 3rem auto !important;
+    display: block !important;
+}
+.paymentContainer{
+    border: 2px solid red;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.payment__title h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    padding: 1rem 0em;
+    text-align: center;
+}
+.payment__details{
+    /* border: 2px solid red; */
+    padding: 1em 0em;
+    max-width: 400px;
+    margin: 1.3em auto;
+}
+.payment__priceContainer{
+    font-size: 1.2rem;
+    margin: 1.5rem 0em;
+    font-weight: 500;
+    color: rgb(46, 46, 46);
+}
+.payment__priceContainer span{
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-left: 0.5rem;
+
+
+}
+.placeOrderButton{
+    display: block !important;
+    margin: 2rem auto !important;
+    font-family: 'Raleway' !important;
+    font-weight: 500 !important;
+}

@@ -1,0 +1,83 @@
+
+.orderSuccessfull__heading{
+    text-align: center;
+    padding: 0.5em 0em;
+    font-weight: 600;
+    color: #388e3c;
+
+}
+.orderSuccessfull__heading2{
+    text-align: center;
+    padding: 0.5em 0em;
+    font-weight: 600;
+    color: #5c5c5c;
+    font-size: 1.5rem;
+}
+.successConfirmation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.checkCircleIcon{
+    font-size: 3rem !important;
+    color: #388e3c !important;
+    transform: scale(0);
+    animation: animateSuccessIcon 0.5s 1.5s ;
+    animation-fill-mode: forwards;
+    
+}
+.orderInfo__container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 10rem;
+
+}
+.orderInfo__image__container{
+    border: 2px solid red;
+    padding: 1rem;
+    max-width: 450px;
+
+}
+.orderInfo__image__image{
+    border: 2px solid green;
+    max-height: 500px;
+    
+    
+}
+
+.orderInfo__container__information{
+    border: 2px solid blue;
+    padding: 1rem;
+}
+.orderInfo__information__heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.orderInfo__container__backToHome{
+    background-color: #388e3c !important;
+    font-family: 'Raleway' !important;
+    font-weight: 600 !important;
+}
+
+
+
+
+
+@keyframes animateSuccessIcon {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

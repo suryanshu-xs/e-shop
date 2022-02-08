@@ -1,0 +1,40 @@
+.subHeader{
+
+    display: flex;
+    align-items: center;
+    margin: 0em auto;
+
+    max-width: 1000px;
+    justify-content: space-between;
+ 
+   
+}
+.subHeaderWrapper{
+  
+    background-color: rgb(246, 246, 246);
+    border-bottom: 1px solid #6666;
+}
+.subHeader__items{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0em 0.1em;
+    
+
+}
+.subHeader__items__image{
+    width: clamp(40px,4vw,50px);
+    border-radius: 50%;
+}
+.subHeader__items__text{
+    padding: 0.5em 0em;
+    font-size: 0.9rem;
+    font-weight: 600 !important;
+    font-family: 'Raleway', sans-serif !important;
+    text-transform: capitalize;
+    color: var(--root-color);
+    
+}

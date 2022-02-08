@@ -1,0 +1,35 @@
+.profileInformation{
+    /* border: 1px solid red; */
+    margin-top: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.profileInformation__name{
+    font-weight: 500;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    color: rgb(66, 66, 66);
+    font-size: 1.6rem;
+}
+.profileInformation__imnage{
+    height: 60px !important;
+    width: 60px !important;
+}
+.drawer__optionsContainer__button{
+    font-weight: 600 !important;
+    color: var(--root-color) !important;
+}
+.drawerList{
+    
+    margin-top: 1rem !important;
+}
+.MuiTypography-root{
+
+    font-family: 'Raleway' !important;
+    font-weight: 500 !important;
+    color: rgb(46, 46, 46);
+}

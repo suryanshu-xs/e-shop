@@ -1,0 +1,30 @@
+.signup__heading{
+
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+    text-align: center;
+}
+.signup__logoContainer{
+    width: fit-content;
+    margin: 0em auto;
+    margin-top: 0.5rem;
+}
+.signup__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.signup__form__boxes{
+    margin: 0.5em 0em;
+}
+.signup__form__button{
+    font-family: 'Raleway',sans-serif !important;
+    background-color: var(--root-color) !important;
+    margin: 1rem !important;
+}
+.alertMessage{
+    font-weight: 500;
+    font-family: 'Raleway',sans-serif;
+}

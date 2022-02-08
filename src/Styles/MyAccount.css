@@ -1,0 +1,110 @@
+.myAccount__heading {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: rgb(65, 65, 65);
+  font-weight: 600;
+}
+.myAccount__profileImage {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.myAccount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  min-height: 100vh;
+}
+.myAccount__profileImag__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#file-input {
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  filter: alpha(opacity=0); /* IE < 9 */
+  opacity: 0;
+}
+.input-label {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.profileImage__iconButton {
+  z-index: 10 !important;
+}
+.profileImage__iconButton__icon {
+  z-index: 20 !important;
+}
+.myAccount__details__heading {
+  font-weight: 500;
+  padding: 1rem 0rem;
+  text-align: center;
+
+  color: rgb(65, 65, 65);
+}
+
+.accountDetails__inputContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: flex-end;
+    
+    padding: 0em 0.2rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+}
+.myAccount__details__container{
+    width: 320px;
+    
+}
+.accountDetails__inputContainer__label{
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+
+}
+
+.form__button__container{
+    margin: 2rem 0em;
+    display: grid;
+    place-items: center;
+}
+
+.container__form__button{
+    
+    font-family: 'Raleway' !important;
+    font-weight: 600 !important;
+    /* background-color: var(--root-color) !important; */
+    display: block !important;
+    margin: 2rem auto !important;
+
+}
+
+
+@media (min-width:350px){
+    .myAccount__details__container{
+        width: 320px;
+    }
+}
+@media (min-width:351px){
+    .myAccount__details__container{
+        width: 350px;
+    }
+}
+@media (min-width:421px){
+    .myAccount__details__container{
+        width: 420px;
+    }
+}
